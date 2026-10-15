@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi primer sitio web con enlaces-inicio</title>
+    </head>
+    <body>
+        <details>
+            <summary>Menú</summary>
+            <nav>
+                <ul>
+                <!--ul de "unordered list" -lista no ordenada . crea una lista no ordenada.-->
+                    <li><a href="index.html">Inicio</a></li> 
+                    <!--El elemento <a> de HTML (o elemento ancla), junto con su atributo href, crea un hipervínculo a páginas web, archivos, direcciones de correo electrónico, ubicaciones dentro de la misma página o cualquier otra cosa que una URL pueda direccionar.-->
+                    <li><a href="sobre.html">Sobre mí</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </details>
+        <hr>
+        <style type="text/css">
+            h1 { color: darkblue; }
+        </style>
+        <h1>Índice</h1>
+        <h3>Esta es mi página web.</h3>
+        <div style="border: 3px solid rgb(108, 112, 115)">
+            <h4>Arriba a la izquierda puedes plegar y desplegar el menú</h4>
+            <p>
+                En el menú puedes acceder a las distintas direcciones de la web haciendo 
+                <span style="color: rgb(0, 60, 139);"> clic en sus enlaces. </span>
+            </p>
+        </div>
+    </body>
+    <hr>
+    <footer>
+    <!--El Elemento HTML Footer (<footer>) representa un pie de página para el contenido de sección más cercano o el elemento raíz de sección-->
+        <div class="footer">
+            <p>Aitor Sánchez</p>
+            <p>Mi primer sitio web con enlaces</p>
+        </div>
+        <style>
+            .footer { display: flex; gap: 20px; }
+        </style>
+    </footer>
+</html>
